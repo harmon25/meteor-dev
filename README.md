@@ -15,7 +15,7 @@ docker run --name meteor-app \
  -v ~/dev/meteor-app:/opt/app \
  --link meteor-mongo:mongodb \
  -e MONGO_URL=mongodb://mongodb:27017/meteor-app \
- harmon/meteor-dev:1.0
+ harmon25/meteor-dev
 ```
 
 - Thanks [meteord](https://github.com/meteorhacks/meteord)
